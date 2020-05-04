@@ -1,0 +1,150 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Anton&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Cabin&display=swap');
+
+body {
+    font-family: Roboto,sans-serif;
+    font-weight: normal;
+    font-size: 12pt;
+}
+header#cabecalho img#canadaLogo {
+    height: 100px;
+    margin-top: 0px;
+    position: absolute;
+    top: 10px;
+}
+
+header#cabecalho {
+    display: block;
+    border-bottom: 1px solid black;
+    height: 90px;
+}
+
+header#cabecalho h1{
+    font-family: 'Anton', sans-serif;
+    font-weight: normal;
+    font-size: 30pt;
+    text-align: center;
+    position: relative;
+}
+
+p {
+    text-align: justify;
+    text-indent: 50px;
+    margin: 0px;
+}
+a {
+    text-decoration: none;
+    color: red;
+}
+
+a:hover {
+    text-decoration: underline black;
+}
+
+section#background {
+    background-color: rgba(100%, 0%, 0%, 0.8);
+}
+
+
+section#corpo {
+    background: white;
+    display: block;
+    width: 900px;
+    margin: 0px auto 0px auto ;
+    border-right: 1px solid white;
+    border-left: 1px solid white;
+    padding: 10px;
+
+}
+
+section#corpo h2 {
+    font-family: 'Cabin',sans-serif;
+    font-weight: normal;
+    font-size: 20pt;
+    color: #ffffff;
+    background-color: rgba(100%, 0%, 0%, 0.8);
+    padding-left: 5px;
+}
+section#corpo header h1 {
+    font-family: Anton,sans-serif;
+    font-weight: normal;
+    font-size: 16pt;
+    color: #ff9505;
+}
+section#corpo section#assunto1, section#assunto2, section#assunto3 {
+    display: block;
+}
+section#assunto1 img#pgm_imagem {
+    height: 150px;
+    width: 150px;
+    float: right;
+    margin: 0px 20px 40px 20px;
+}
+section#assunto1 h3 {
+    color: #ff9505;
+    font-weight: normal;
+    font-size: 10pt;
+    text-align: justify;
+}
+
+section#assunto2 iframe{
+    position: relative;
+    float: left;
+    margin: 0px 20px 0px 20px;
+}
+
+section#assunto2 p {
+    margin-bottom: 155px;
+}
+section#assunto2 h3 {
+    font-weight: bold;
+}
+section#assunto3  img{
+    float: left;
+    height: 200px;
+    margin: 0px 20px 10px 0px;
+}
+section#assunto3 p#paragrafo_mod {
+    margin-bottom: 10px;
+}
+footer#rodape {
+    border-top: 1px solid black;
+}
+footer#rodape h2 {
+    text-align: center;
+    color: #ff9505;
+    font-family:Anton, sans-serif ;
+    font-weight: normal;
+    font-size: 20pt;
+    margin: 4px 0px 4px 0px;
+}
+footer#rodape img {
+    float: left;
+    height: 150px;
+    left: 0px;
+}
+footer#rodape h4 {
+    color: white;
+    font-family: Roboto, sans-serif;
+    font-weight: normal;
+    font-size: 15pt;
+}
+footer#rodape h4#email {
+    color: white;
+    margin: 1px;
+}
+footer#rodape h5 {
+    color: white;
+    font-weight: normal;
+    font-family: Roboto, sans-serif;
+    font-size: 11pt;
+    text-align: right;
+    margin: 0px;
+}
+section#box {
+    background-color: rgba(100%, 0%, 0%, 0.8);
+    border-radius: 10px ;
+    padding: 10px;
+}
